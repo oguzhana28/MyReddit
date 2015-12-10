@@ -1,0 +1,102 @@
+div.center{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	background-color: white;
+	opacity: 0.5;
+	height: static;
+	padding-bottom: 25px;
+	
+}
+body{
+background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	 background-attachment:fixed;
+	 background-size: cover;
+}
+ul a{
+	margin-right: 50px;
+	font-size: 20px;
+	text-decoration: none;
+}
+h1{
+ padding-left: 10px;
+ margin-right: 10px;
+}
+table { 
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 1020px; 
+table-layout: fixed;
+border: 1px solid black transparent;
+}
+
+td, th { 
+border: 1px solid transparent; /* No more visible border */
+height: 30px; 
+}
+
+th {
+background: black;  /* Darken header a bit */
+font-weight: bold;
+color: white;
+}
+
+td {
+background: #FAFAFA;
+
+}
+img{
+float: left;	
+}
+p{
+	size:32px;
+	float: left;
+	margin-top:150px;
+	margin-left: -75px;
+	font-family: georgian;
+}
+label
+{
+  float: left;
+  width: 300px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family:Arial;
+}
+
+form p
+{
+  clear: left;
+  margin-left: 25px;
+  padding-top:10px;
+}
+input[type="text"]
+{
+  width: 250px;
+  padding-top: 25px;
+}
+
+
+label{
+	float: left;
+	text-align: left;
+	width: 200px;
+	padding-top: 25px;
+}
+div.text{
+	float:right;
+	color:black;
+	font-weight: 20;
+}
+p.error{
+	float: right;
+	font-size: 32px;
+}
+p.button{
+	color: white;
+}
+div.echo{
+	size: 32px;
+}
